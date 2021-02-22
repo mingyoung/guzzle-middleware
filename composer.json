@@ -1,0 +1,22 @@
+{
+    "name": "mingyoung/guzzle-middleware",
+    "description": "Some middleware for Guzzle.",
+    "keywords": [
+        "guzzle"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ming Young",
+            "email": "mingyoungcheung@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GuzzleMiddleware\\": "src/"
+        }
+    }
+}
